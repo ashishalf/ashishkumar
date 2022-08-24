@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ashish Kumar | Portfolio</title>
+    <!-- CSS Bootstrap -->
+    <link
+      href="./style.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+    <link rel="icon" type="image/png" href="./logo1.png" />
+
+    <style>
+      body {
+      max-width: 100%;
+      overflow-x: hidden;
+        }
+      .social i{
+        font-size: 30px;
+        background-color: white;
+        color: black;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        border-radius: 50%;
+        margin: 10px;
+      }
+      .social i:hover{
+        background-color:black;
+        color:white;
+      }
+      .buttons:hover{
+        background-color: black;
+        color: white;
+      }
+      @media screen and (max-width: 1030px) {
+        .bgimage {
+          height: 350px;
+        }
+        .about-text {
+          text-align: center;
+          padding-top: 20px;
+          padding-left: 10px;
+        }
+/*         .main img {
+          padding: 0px 50px 0px 50px;
+        } */
+        .blog2{
+          margin-top: 20px;
+        }
+      }
+    </style>
+  </head>
+  <body
+    style="
+      background-color: black;
+      color: white;
+      font-family: 'Courier New', Courier, monospace;
+    "
+  >
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand mx-4 fw-bolder" href="./index.html">
+          <img src="./logo1.png" alt="" width="40" height="40" style="border-radius:50%; border: 1px solid;">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-4">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutme">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#myskills">Skills</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#blogs">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="http://ashishalf.github.io/" target="_blank">Summary</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.codingfizz.in/search?&max-results=8" target="_blank">Codingfizz</a>
+            </li>
+          </ul>
+          <span class=" navbar-text mx-4">
+            <a href="#contact"><button class="buttons btn btn-light">Contact Me</button></a>
+          </span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header Background -->
+    <div id="home" style="position: relative">
+      <img
+        class="bgimage"
+        src="https://source.unsplash.com/1600x620/?black"
+        alt="black BG"
+        width="100%"
+      />
+      <div style="position: absolute; top: 30%; left: 15%">
+        <h4>Hello</h4>
+        <h1 class="fw-bolder">I'm <span style="color:red;">Ashish Kumar</span></h1>
+        <h5>Developer & Creator</h5>
+        <br />
+
+        <!-- download resume -->
+        <a
+          class="buttons btn btn-light btn-md"
+          href="https://drive.google.com/file/d/1e9odfpJMvmQa_9SXb3vGFuvy_ijThmFp/view?usp=sharing"
+          target="_blank"
+          >Resume View</a
+        >
+      </div>
+    </div>
+    <hr />
+
+    <!-- About section -->
+    <div id="aboutme">
+      <h1 style="text-align: center">About Me</h1>
+    </div>
+
+    <section class="about" style="width: 100%; padding: 20px 0px">
+      <div
+        class="main"
+        style="
+          width: 1130px;
+          max-width: 95%;
+          margin: 0 auto;
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          justify-content: space-around;
+        "
+      >
+       <div class="col mx-4">
+          <img src="./image1.jpg" class="card-img-top" alt="Ashish Kumar" width="30" height="auto">
+      </div>
+<!--         <img
+          src="./image1.jpg"
+          alt=""
+          style="width: 430px;"
+        /> -->
+        <div class="about-text" style="width: 550px">
+          <h2 class="fw-bolder">I'm <span style="color:red;">Ashish Kumar</span></h2>
+          <p>
+            Hi, My name is Ashish Kumar, I’m knowledgeable, creative, and intelligent. Now I'm
+            persuing BCA from Quantum University Roorkee. I’m at the cutting
+            edge of my field and I’m quite skilled in all things programming and
+            blogging related.
+            I am founder of <a href="https://www.codingfizz.in" target="_blank" style=" color: white;"><b>Codingfizz</b></a>. Writing blogs in Codingfizz and managing its social accounts.
+          </p>
+          <a href="https://www.linkedin.com/in/ashishalf/" target="_blank"><button class="buttons btn btn-light">LinkedIn</button></a>
+        </div>
+      </div>
+    </section>
+    <hr />
+
+    <!-- social icons -->
+    <div>
+      <h1 style="text-align: center">Let's Connect</h1>
+    </div>
+    <div class="social" style="text-align:center; margin: 20px 0px;">
+        <a href="https://www.facebook.com/profile.php?id=100067756606770" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://twitter.com/ashishalf" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://www.instagram.com/ashishalf/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/ashishalf" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://github.com/ashishalf" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.quora.com/profile/Ashish-Kumar-26258" target="_blank"><i class="fa-brands fa-quora"></i></a>
+        <a href="https://www.codingfizz.in/" target="_blank"><i class="fa-solid fa-globe"></i></a>
+    </div><hr>
+
+    <!-- skills -->
+    <div id="myskills">
+      <h1 style="text-align: center">My Skills</h1>
+    </div>
+
+    <section class="skills" style="width:100%; margin: 50px 0;" >
+      <!-- progress bar 1 -->
+      <div
+        class="main"
+        style="
+          width: 1130px;
+          max-width: 100%;
+          margin: 0 auto;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          justify-content: space-around;
+        "
+      >
+      <div style="width: 45%">
+        <p>HTML, CSS & JS</p>
+      </div>
+      <br />
+      <div  style="width: 45%;">
+        <p>Wordpress</p>
+      </div>
+      <div
+        class="main"
+        style="
+          width: 1130px;
+          max-width: 100%;
+          margin: 0 auto;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          justify-content: space-around;
+        "
+      >
+      <div class="progress" style="width: 45%">
+        <div class="progress-bar progress-bar-striped bg-danger progress-bar-animated" role="progressbar" style="width: 80%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+
+      </div>
+      <br />
+      <div class="progress" style="width: 45%;">
+        <div class="progress-bar progress-bar-striped bg-danger progress-bar-animated" role="progressbar" style="width: 80%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      </div>
+
+      <!-- progress bar 2 -->
+      <div
+        class="main"
+        style="
+          width: 1130px;
+          max-width: 100%;
+          margin: 10px auto;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          justify-content: space-around;
+        "
+      >      
+      <div style="width: 45%">
+        <p>C & C++</p>
+      </div>
+      <br />
+      <div  style="width: 45%;">
+        <p>Python</p>
+      </div>
+      <div
+        class="main"
+        style="
+          width: 1130px;
+          max-width: 100%;
+          margin: 0px auto;
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          justify-content: space-around;
+        "
+      >
+      <div class="progress" style="width: 45% ">
+        <div class="progress-bar progress-bar-striped bg-danger progress-bar-animated" role="progressbar" style="width: 85%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+
+        
+      </div>
+      <br />
+      <div class="progress" style="width: 45%;">
+        <div class="progress-bar progress-bar-striped bg-danger progress-bar-animated" role="progressbar" style="width: 75%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+
+      </div>
+      </div>
+      <!-- progress bar 3 -->
+      <div
+        class="main"
+        style="
+          width: 1130px;
+          max-width: 100%;
+          margin: 10px auto;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          justify-content: space-around;
+        "
+      >
+      
+      <div style="width: 45%">
+        <p>Java</p>
+      </div>
+      <br />
+      <div  style="width: 45%;">
+        <p>Web Design</p>
+      </div>
+      <div
+        class="main"
+        style="
+          width: 1130px;
+          max-width: 100%;
+          margin: 0px auto;
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          justify-content: space-around;
+        "
+      >
+      <div class="progress" style="width: 45% ">
+        <div class="progress-bar progress-bar-striped bg-danger progress-bar-animated" role="progressbar" style="width: 80%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>  
+      </div>
+      <br />
+      <div class="progress" style="width: 45%;">
+        <div class="progress-bar progress-bar-striped bg-danger progress-bar-animated" role="progressbar" style="width: 85%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      </div>
+    </section><hr>
+
+    <!-- Work Section -->
+    <div id="Work">
+      <h1 style="text-align: center">Work</h1>
+    </div>
+
+      <div class="row row-cols-1 row-cols-md-3 g-4" style="margin: 20px; margin-bottom:50px;">
+        <div class="col">
+          <div class="card bg-black mx-4" style="border:2px solid; ">
+            <img src="./4882464.jpg" class="card-img-top" alt="..." width="30" height="auto">
+            <div class="card-body">
+              <h5 class="card-title text-center">Web Development</h5>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card bg-black mx-4" style="border:2px solid;">
+            <img src="./3236267.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center">Content Creator</h5>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card bg-black mx-4" style="border:2px solid;">
+            <img src="./3704081.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center">Programming</h5>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    <hr>
+    <!-- Quote -->
+    <div class="card bg-black mx-2">
+      <!-- <div class="card-header">
+        Quote
+      </div> -->
+      <center><div class="card-body">
+        <blockquote class="blockquote mb-0">
+          <p>"I will win not Immediately, But Definitely"</p>
+          <footer class="blockquote-footer">Loujain al-Hathloul</footer>
+        </blockquote>
+      </div></center>
+    </div><hr>
+
+    <!-- Blogs -->
+    <div id="blogs">
+      <h1 style="text-align: center">Blog</h1>
+    </div>
+    <div class="row" style="margin: 20px; margin-bottom:50px;">
+      <div class="col-sm-6">
+        <div class="card bg-black" style="border:2px solid;">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Create a link page.</h5>
+            <p class="card-text">In this article, Generate a simple and good-looking link page for your social profiles.</p>
+            <a href="https://www.codingfizz.in/2022/06/create-your-own-link-page-using-simple.html" target="_blank" class="buttons btn btn-light">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="blog2 card bg-black" style="border:2px solid;">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">How to host a static Website.</h5>
+            <p class="card-text">In this article, we will describe how to host a static website on GitHub pages.
+            </p>
+            <a href="https://www.codingfizz.in/2022/08/how-to-host-static-website-on-github.html" target="_blank" class="buttons btn btn-light">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div><hr>
+
+    <!-- Contact form -->
+    <div id="contact">
+      <h1 style="text-align: center">Contact Me</h1>
+    </div>
+
+    <section style="width:100%; margin:0px 0px;">
+      <div
+      class="main"
+      style="
+        width: 1130px;
+        max-width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-around;
+      "
+    >
+    <div style="justify-content:center; margin-top:50px;">
+      <h1 class="fw-bolder" style="color:red;">Don't be a stranger</h1>
+      <h1 class="fw-bolder">just say hello</h1>
+    </div>
+    <div style="width:320px;">
+      <form action="https://formspree.io/f/xwkzpeoa"
+      method="POST">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="from-lable mt-4">Full Name</label>
+            <input type="text" class="form-control" id="name" name="name" aria-describedby="nameHelp" placeholder="enter name" required=""><br>
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="text" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="enter email" required=""><br>
+          <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+          <textarea class="form-control" name="message" id="message"required="" rows="3"></textarea>
+        </div>
+        <button type="submit" class=" buttons btn btn-light mb-5 mt-3">Submit</button>
+      </form>
+    </div>
+    </div>
+    </section><hr>
+
+    <!-- footer -->
+    <footer>
+      <center><label for="text"><a href="index.html" style="text-decoration:none; color: white; padding-bottom: 15px;">Ashish Kumar</a> © 2022</label></center>
+    </footer>
+
+
+    <!-- Javascript -->
+    <script
+      src="./bootstrap.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="./popper.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="./bootstrap2.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+        
+<!-- formbutton -->
+    <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+<script>
+  /* paste this line in verbatim */
+  window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+  /* customize formbutton below*/     
+  formbutton("create", {
+    action: "https://formspree.io/f/xwkzpeoa",
+    title: "How can we help?",
+    fields: [
+      { 
+        type: "email", 
+        label: "Email:", 
+        name: "email",
+        required: true,
+        placeholder: "your@email.com"
+      },
+      {
+        type: "textarea",
+        label: "Message:",
+        name: "message",
+        placeholder: "What's on your mind?",
+      },
+      { type: "submit" }      
+    ],
+    styles: {
+      title: {
+        backgroundColor: "-"
+      },
+      button: {
+        backgroundColor: "-"
+        
+      }
+    }
+  });
+</script>
+
+  </body>
+</html>
