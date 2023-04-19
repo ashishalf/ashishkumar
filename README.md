@@ -1,5 +1,7 @@
 # Ashish's Personal Portfolio
-Welcome to my personal portfolio! This website showcases my projects, skills, work experience, and information about me. It also includes links to my social media profiles and ways to contact me.
+Welcome to my personal portfolio! 
+
+This website showcases my projects, skills, work experience, and information about me. It also includes links to my social media profiles and ways to contact me.
 
 # Features
 1. Home page with a brief introduction and call-to-action button
