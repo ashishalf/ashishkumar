@@ -21,13 +21,20 @@
     <!-- Font Awesome CDN -->
     <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
 
-    <link rel="icon" type="image/png" href="./Images/image6.jpg" />
+    <link rel="icon" type="image/png" href="./Images/favicon.png" />
 
     <style>
       body {
       max-width: 100%;
       overflow-x: hidden;
         }
+      #home{
+  width: 100%;
+  height: 100vh;
+  background-image: url('./Images/bg.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
       .social i{
         font-size: 30px;
         background-color: white;
@@ -53,9 +60,7 @@
       }
       
       @media screen and (max-width: 1030px) {
-       .bgimage {
-          height: 700px;
-        }
+       
         #home-part h4{
           font-size: 18px;
         }
@@ -87,7 +92,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container-fluid">
         <a class="navbar-brand mx-4 fw-bolder" href="./index.html">
-          <img src="./Images/image6.jpg" alt="" width="40" height="40" style="border-radius:50%;">
+          <img src="./Images/image6.gif" alt="" width="35" height="35" ">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -127,12 +132,7 @@
 
     <!-- Header Background -->
     <div id="home" style="position: relative">
-      <img
-        class="bgimage"
-        src="https://source.unsplash.com/1600x720/?black"
-        alt="black BG"
-        width="100%"
-      />
+      
       <div id="home-part" style="position: absolute; top: 30%; left: 15%">
         <h4>Hello 👾</h4>
         <h1 class="fw-bolder">I'm <span style="color:red;">Ashish Kumar</span></h1>
