@@ -28,13 +28,15 @@
       max-width: 100%;
       overflow-x: hidden;
         }
-      #home{
+
+        #home{
   width: 100%;
   height: 100vh;
   background-image: url('./Images/bg.gif');
   background-repeat: no-repeat;
   background-size: cover;
 }
+        
       .social i{
         font-size: 30px;
         background-color: white;
@@ -61,6 +63,10 @@
       
       @media screen and (max-width: 1030px) {
        
+        
+        /* .bgimage {
+          height: 550px;
+        } */
         #home-part h4{
           font-size: 18px;
         }
@@ -92,7 +98,8 @@
     <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container-fluid">
         <a class="navbar-brand mx-4 fw-bolder" href="./index.html">
-          <img src="./Images/image6.gif" alt="" width="35" height="35" ">
+          <!-- <img src="./Images/image6.gif" alt="" width="35" height="35"> -->
+          <img width="48" height="48" src="https://img.icons8.com/emoji/48/alien-monster-emoji.png" alt="alien-monster-emoji"/>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -119,7 +126,7 @@
               <a class="nav-link" href="https://www.codingfizz.in" target="_blank">Codingfizz</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="https://hiphop-sooty.vercel.app/" target="_blank">Hip-Hop</a>
+              <a class="nav-link" href="https://desirhyme.vercel.app/" target="_blank">DesiRhyme</a>
             </li>
             
           </ul>
@@ -131,9 +138,14 @@
     </nav>
 
     <!-- Header Background -->
-    <div id="home" style="position: relative">
-      
-      <div id="home-part" style="position: absolute; top: 30%; left: 15%">
+    <div id="home" style="position: relative;">
+      <!-- <img
+        class="bgimage"
+        src="https://source.unsplash.com/1600x720/?black"
+        alt="bg"
+     
+      /> -->
+      <div id="home-part" style="position: absolute; top: 30%; left: 15%;">
         <h4>Hello 👾</h4>
         <h1 class="fw-bolder">I'm <span style="color:red;">Ashish Kumar</span></h1>
         <h5>Web Developer & Creator</h5>
@@ -152,10 +164,10 @@
 
     <!-- About section -->
     <div id="aboutme">
-      <h1 style="text-align: center">About Me</h1>
+      <h1 style="text-align: center; padding-top: 50px;">About Me</h1>
     </div>
 
-    <section class="about" style="width: 100%; padding: 20px 0px">
+    <section class="about" style="width: 100%; padding: 50px 0px">
       <div
         class="main"
         style="
@@ -179,7 +191,7 @@
         <div class="about-text" style="width: 550px">
           <h2 class="fw-bolder">I'm <span style="color:red;">Ashish Kumar</span></h2>
           <p>
-            Hello, I'm Ashish, an MCA student at Quantum University Roorkee. I'm passionate about technology, programming, and blogging, and I'm always looking for ways to learn and grow in these areas. I consider myself knowledgeable, creative, and intelligent, and I'm committed to staying at the cutting edge of my field.<br> With my programming skills and experience in content creation and blogging, I'm confident in my ability to make meaningful contributions to the tech industry.
+            Hello, I'm Ashish, an MCA student at Quantum University Roorkee. I'm passionate about technology, programming, and blogging, and I'm always looking for ways to learn and grow in these areas.<br> I consider myself knowledgeable, creative, and intelligent, and I'm committed to staying at the cutting edge of my field. With my programming skills and experience in content creation and blogging, I'm confident in my ability to make meaningful contributions to the tech industry.
 </p>
           <a href="https://www.linkedin.com/in/ashishalf/" target="_blank"><button class="buttons btn btn-light">LinkedIn</button></a>
         </div>
@@ -189,22 +201,23 @@
 
     <!-- social icons -->
     <div>
-      <h1 style="text-align: center">Let's Connect</h1>
+      <h1 style="text-align: center; padding-top: 50px;">Let's Connect</h1>
     </div>
-    <div class="social" style="text-align:center; margin: 20px 0px;">
+    <div class="social" style="text-align:center; padding: 50px 0px;">
         <a href="https://www.instagram.com/ashishalf/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
         <a href="https://twitter.com/ashishalf" target="_blank"><i class="fa-brands fa-twitter"></i></a>
         <a href="https://www.linkedin.com/in/ashishalf" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
         
         <a href="https://github.com/ashishalf" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.figma.com/@ashishalf" target="_blank"><i class="fa-brands fa-figma"></i></a>
     </div><hr>
 
     <!-- skills -->
     <div id="myskills">
-      <h1 style="text-align: center">My Skills</h1>
+      <h1 style="text-align: center; padding-top: 50px;">My Skills</h1>
     </div>
 
-    <section class="skills" style="width:100%; margin: 50px 0;" >
+    <section class="skills" style="width:100%; padding: 50px 0;" >
       <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center"
        style="margin:20px;">
         <div class="text-center col">
@@ -328,13 +341,13 @@
 
     <!-- Work Section -->
     <div id="Work">
-      <h1 style="text-align: center">Work</h1>
+      <h1 style="text-align: center; padding-top: 50px;">Work</h1>
     </div>
 
-      <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center" style="margin: 20px; margin-bottom:50px;">
+      <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center" style="margin: 50px 20px;">
         <div class="col">
-          <a href="https://www.codingfizz.in/" target="_blank" style="text-decoration: none; color: white;"><div class="card bg-black mx-4" style="border:2px solid white;">
-            <img src="./Images/work1.png" class="card-img-top" alt="...">
+          <a href="https://www.codingfizz.in/" target="_blank" style="text-decoration: none; color: white;"><div class="card bg-black " style="border:2px solid white;">
+            <img src="./Images/codingfizz.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title text-center">Codingfizz</h5>
               <p class="card-text text-center">This is technical blogging website.</p>
@@ -342,8 +355,8 @@
           </div></a>
         </div>
         <div class="col">
-          <a href="http://traveler.000.pe/traveler/" target="_blank" style="text-decoration: none; color: white;"><div class="card bg-black mx-4" style="border:2px solid;">
-            <img src="./Images/work3.png" class="card-img-top" alt="...">
+          <a href="http://traveler.000.pe/traveler/" target="_blank" style="text-decoration: none; color: white;"><div class="card bg-black " style="border:2px solid;">
+            <img src="./Images/traveler.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title text-center">Traveler</h5>
               <p class="card-text text-center">Travel and Tourism Management System.</p>
@@ -351,8 +364,8 @@
           </div></a>
         </div>
         <div class="col">
-          <a href="https://quizhunt.vercel.app/" target="_blank" style="text-decoration: none; color: white;"><div class="card bg-black mx-4" style="border:2px solid;">
-            <img src="./Images/work2.png" class="card-img-top" alt="...">
+          <a href="https://quizhunt.vercel.app/" target="_blank" style="text-decoration: none; color: white;"><div class="card bg-black " style="border:2px solid;">
+            <img src="./Images/quizhunt.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title text-center">QuizHunt</h5>
               <p class="card-text text-center">QuizHunt is a technical MCQ website.</p>
@@ -360,8 +373,8 @@
           </div></a>
         </div>
         <div class="col">
-          <a href="https://github.com/ashishalf" target="_blank" style="text-decoration: none; color: white;"><div class="card bg-black mx-4" style="border:2px solid;">
-            <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" class="card-img-top" alt="...">
+          <a href="https://github.com/ashishalf" target="_blank" style="text-decoration: none; color: white;"><div class="card bg-black " style="border:2px solid;">
+            <img src="./Images/github.png"  alt="...">
             <div class="card-body">
               <h5 class="card-title text-center">GitHub</h5>
               <p class="card-text text-center">This is where all projects are stored.</p>
@@ -369,8 +382,8 @@
           </div></a>
         </div>
         <div class="col">
-          <a href="https://www.figma.com/@ashishalf" target="_blank" style="text-decoration: none; color: white;"><div class="card bg-black mx-4" style="border:2px solid;">
-            <img src="https://s3-alpha.figma.com/hub/file/2815952264/7a5ebfb0-0508-48ab-be9a-31b36ba53f97-cover.png" class="card-img-top" alt="...">
+          <a href="https://www.figma.com/@ashishalf" target="_blank" style="text-decoration: none; color: white;"><div class="card bg-black " style="border:2px solid;">
+            <img src="./Images/figma.png"  alt="...">
             <div class="card-body">
               <h5 class="card-title text-center">Figma</h5>
               <p class="card-text text-center">All design projects are stored in Figma.</p>
@@ -380,7 +393,7 @@
       </div>
     <hr>
     <!-- Quote -->
-    <div class="card bg-black mx-2">
+    <div class="card bg-black mx-2" style="padding: 50px 0px;">
       <!-- <div class="card-header">
         Quote
       </div> -->
@@ -394,9 +407,9 @@
 
     <!-- Blogs -->
     <div id="blogs">
-      <h1 style="text-align: center">Blog</h1>
+      <h1 style="text-align: center; padding-top: 50px;">Blog</h1>
     </div>
-    <div class="row" style="margin: 20px; margin-bottom:50px;">
+    <div class="row" style="margin: 50px 20px;">
       <div class="col-sm-6">
         <div class="card bg-black" style="border:2px solid;">
           <div class="card-body">
@@ -420,10 +433,10 @@
 
     <!-- recommendations -->
      <div id="blogs">
-      <h1 style="text-align: center">Recommendations</h1>
+      <h1 style="text-align: center; padding-top: 50px">Recommendations</h1>
     </div>
     <!-- Carousel wrapper -->
-<div id="carouselExampleControls" class="carousel slide text-center carousel-light" data-mdb-ride="carousel" style="margin:10px;">
+<div id="carouselExampleControls" class="carousel slide text-center carousel-light" data-mdb-ride="carousel" style="margin:10px; padding: 50px 40px;">
   <div class="carousel-inner">
     <div class="carousel-item">
       <img class="rounded-circle shadow-1-strong m-4"
@@ -501,11 +514,10 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div><hr>
-<!-- Carousel wrapper -->
 
     <!-- Contact form -->
     <div id="contact">
-      <h1 style="text-align: center">Contact Me</h1>
+      <h1 style="text-align: center; padding-top: 50px;">Contact Me</h1>
     </div>
 
     <section style="width:100%; margin:0px 0px;">
@@ -544,7 +556,7 @@
 
     <!-- footer -->
     <footer>
-      <center><label for="text" style="color: white; padding-bottom: 15px;">created with ❤️ by me</label></center>
+      <center><label for="text" style="padding-bottom: 15px;">created with ❤️ by me</label></center>
     </footer>
 
 
