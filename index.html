@@ -36,7 +36,12 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-        
+
+::selection {
+  color: red;
+  background: white;
+}
+
       .social i{
         font-size: 30px;
         background-color: white;
@@ -60,6 +65,12 @@
             max-width: 100%;
             height: auto;
       }
+
+      .navbar-nav .nav-item .nav-link {
+        color: white;
+        font-size: 18px;
+      }
+
       
       @media screen and (max-width: 1030px) {
        
@@ -70,9 +81,7 @@
         #home-part h4{
           font-size: 18px;
         }
-        #home-part h5{
-          font-size: 16px;
-        }
+        
         .about-text {
           text-align: center;
           padding-top: 20px;
@@ -111,7 +120,7 @@
         </button>
         
         <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-4">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-4 ">
             
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="./index.html">Home</a>
@@ -152,9 +161,9 @@
      
       /> -->
       <div id="home-part" style="position: absolute; top: 30%; left: 10%;">
-        <h4>Jai Shree Ram 🚩</h4>
-        <h1 class="fw-bolder">I'm <span style="color:red;">Ashish Kumar</span>.</h1>
-        <h5>Aspiring Web Developer | UI/UX Enthusiast | Tech Enthusiast</h5>
+        <h4 class="text-muted">Jai Shree Ram 🚩</h4>
+        <h1 class="fw-bolder">I'm <span style="background-color: red;">Ashish Kumar</span>.</h1>
+        <h4 class="text-muted">Aspiring Web Developer | UI/UX Enthusiast | Tech Enthusiast</h4>
         <br />
 
         <!-- download resume -->
@@ -170,7 +179,7 @@
 
     <!-- About section -->
     <div id="aboutme">
-      <h1 style="text-align: center; padding-top: 50px;">About Me</h1>
+      <h1  class="fw-bolder" style="text-align: center; padding-top: 50px;"><span style="background-color: red;">About Me</span></h1>
     </div>
 
     <section class="about" style="width: 100%; padding: 50px 0px">
@@ -195,8 +204,8 @@
           style="width: 430px;"
         /> -->
         <div class="about-text" style="width: 550px">
-          <h2 class="fw-bolder">I'm <span style="color:red;">Ashish Kumar</span>.</h2>
-          <p>
+          <h2 class="fw-bolder">I'm <span style="background-color:red;">Ashish Kumar</span>.</h2>
+          <p class="text-muted">
            An MCA student at Quantum University, Roorkee, with a BCA from the same institution. Passionate about web development, UI/UX design, and technology, I specialize in creating user-friendly web applications. I'm seeking opportunities in web development, frontend development, and software engineering to apply and enhance my skills.
 </p>
           <a href="https://www.linkedin.com/in/ashishalf/" target="_blank"><button class="buttons btn btn-light">LinkedIn</button></a>
@@ -207,21 +216,20 @@
 
     <!-- social icons -->
     <div>
-      <h1 style="text-align: center; padding-top: 50px;">Let's Connect</h1>
+      <h1 class="fw-bolder" style="text-align: center; padding-top: 50px;"><span style="background-color: red;">Let's Connect</span></h1>
     </div>
     <div class="social" style="text-align:center; padding: 50px 0px;">
         <a href="https://www.instagram.com/ashishalf/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
         <a href="https://twitter.com/ashishalf" target="_blank"><i class="fa-brands fa-twitter"></i></a>
         <a href="https://www.linkedin.com/in/ashishalf" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
-        <a href="https://in.pinterest.com/ashishalf/" target="_blank"><i class="fa-brands fa-pinterest"></i></a>
-    
+        
         <a href="https://github.com/ashishalf" target="_blank"><i class="fa-brands fa-github"></i></a>
         <a href="https://www.figma.com/@ashishalf" target="_blank"><i class="fa-brands fa-figma"></i></a>
     </div>
 
     <!-- skills -->
     <div id="myskills">
-      <h1 style="text-align: center; padding-top: 50px;">Tech Stacks</h1>
+      <h1  class="fw-bolder" style="text-align: center; padding-top: 50px;"><span style="background-color: red;">Tech Stacks</span></h1>
     </div>
 
     <section class="skills" style="width:100%; padding: 50px 0;" >
@@ -352,7 +360,7 @@
 
     <!-- Work Section -->
     <div id="work">
-      <h1 style="text-align: center; padding-top: 50px;">Works</h1>
+      <h1  class="fw-bolder" style="text-align: center; padding-top: 50px;"><span style="background-color: red;">Works</span></h1>
     </div>
 
       <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center" style="margin: 50px 20px;">
@@ -361,7 +369,7 @@
             <img src="./Images/codingfizz.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title text-center">Codingfizz</h5>
-              <p class="card-text text-center">This is technical blogging website.</p>
+              <p class="card-text text-center text-muted">This is technical blogging website.</p>
             </div>
           </div></a>
         </div>
@@ -370,7 +378,7 @@
             <img src="./Images/traveler.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title text-center">Traveler</h5>
-              <p class="card-text text-center">Travel and Tourism Management System.</p>
+              <p class="card-text text-center text-muted">Travel and Tourism Management System.</p>
             </div>
           </div></a>
         </div>
@@ -379,7 +387,7 @@
             <img src="./Images/quizhunt.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title text-center">QuizHunt</h5>
-              <p class="card-text text-center">QuizHunt is a technical MCQ website.</p>
+              <p class="card-text text-center text-muted">QuizHunt is a technical MCQ website.</p>
             </div>
           </div></a>
         </div>
@@ -388,7 +396,7 @@
             <img src="./Images/desirhyme.png"  alt="...">
             <div class="card-body">
               <h5 class="card-title text-center">DesiRhyme</h5>
-              <p class="card-text text-center">World of Indian and Pakistani Rappers.</p>
+              <p class="card-text text-center text-muted">World of Indian and Pakistani Rappers.</p>
             </div>
           </div></a>
         </div>
@@ -397,7 +405,7 @@
             <img src="./Images/github.png"  alt="...">
             <div class="card-body">
               <h5 class="card-title text-center">GitHub</h5>
-              <p class="card-text text-center">This is where all projects are stored.</p>
+              <p class="card-text text-center text-muted">This is where all projects are stored.</p>
             </div>
           </div></a>
         </div>
@@ -406,7 +414,7 @@
             <img src="./Images/figma.png"  alt="...">
             <div class="card-body">
               <h5 class="card-title text-center">Figma</h5>
-              <p class="card-text text-center">All design projects are stored in Figma.</p>
+              <p class="card-text text-center text-muted">All design projects are stored in Figma.</p>
             </div>
           </div></a>
         </div>
@@ -428,14 +436,14 @@
 
     <!-- Blogs -->
     <div id="blogs">
-      <h1 style="text-align: center; padding-top: 50px;">Blog</h1>
+      <h1  class="fw-bolder" style="text-align: center; padding-top: 50px;"><span style="background-color: red;">Blog</span></h1>
     </div>
     <div class="row" style="margin: 50px 20px;">
       <div class="col-sm-6">
         <div class="card bg-black" style="border:2px solid;">
           <div class="card-body">
             <h5 class="card-title fw-bold">How to Configure Appwrite</h5>
-            <p class="card-text">Appwrite is designed to simplify the development of web and mobile applications.</p>
+            <p class="card-text text-muted">Appwrite is designed to simplify the development of web and mobile applications.</p>
             <a href="https://www.codingfizz.in/2025/02/appwrite.html" target="_blank" class="buttons btn btn-light">Read More</a>
           </div>
         </div>
@@ -444,7 +452,7 @@
         <div class="blog2 card bg-black" style="border:2px solid;">
           <div class="card-body">
             <h5 class="card-title fw-bold">How to host a static Website.</h5>
-            <p class="card-text">In this article, we will describe how to host a static website on GitHub pages.</p>
+            <p class="card-text text-muted">In this article, we will describe how to host a static website on GitHub pages.</p>
             <a href="https://www.codingfizz.in/2022/08/how-to-host-static-website-on-github.html" target="_blank" class="buttons btn btn-light">Read More</a>
           </div>
         </div>
@@ -453,7 +461,7 @@
 
     <!-- recommendations -->
      <div id="blogs">
-      <h1 style="text-align: center; padding-top: 50px">Recommendations</h1>
+      <h1  class="fw-bolder" style="text-align: center; padding-top: 50px"><span style="background-color: red;">Recommendations</span></h1>
     </div>
     <!-- Carousel wrapper -->
 <div id="carouselExampleControls" class="carousel slide text-center carousel-light" data-mdb-ride="carousel" style="margin:10px; padding: 50px 40px;">
@@ -537,7 +545,7 @@
 
     <!-- Contact form -->
     <div id="contact">
-      <h1 style="text-align: center; padding-top: 50px;">Contact Me</h1>
+      <h1   class="fw-bolder" style="text-align: center; padding-top: 50px;"><span style="background-color: red;">Contact Me</span></h1>
     </div>
 
     <section style="width:100%; margin:0px 0px;">
@@ -554,8 +562,8 @@
       "
     >
     <div style="justify-content:center; margin-top:50px;">
-      <h1 class="fw-bolder" style="color:red;">Don't be a stranger</h1>
-      <h1 class="fw-bolder">just say hello!</h1>
+      <h1 class="fw-bolder" style="background-color:red;">Don't be a stranger</h1>
+      <h2 class="text-muted">just say hello!</h2>
     </div>
     <div style="width:320px;">
       <form action="https://formspree.io/f/xwkzpeoa"
